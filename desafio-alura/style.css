@@ -100,3 +100,23 @@
     align-items: center;
     margin-top: 80px;
 }
+
+@media screen and (min-width: 400px) and (max-width: 900px)
+{
+
+.principal {
+    flex-direction: column;
+    
+}
+.principal-cards{
+    flex-direction: column;
+    margin: auto;
+
+}
+.cards {
+    padding: 50px;
+}
+
+
+}
+    
